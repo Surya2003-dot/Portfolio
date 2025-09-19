@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SURYA | Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap (optional, kept for utilities) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+  <!-- --------welcome--- -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4/animate.min.css"/>
+
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div id="main-content">
+  <!-- ----------navbar------------  -->
+   
+  <header class="site-header">
+    <a href="#" class="logo text-decoration-none fs-">&lt; SURYA / S &gt;</a>
+
+    <button id="menu-icon" class="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav class="site-nav" id="site-nav">
+      <!-- <a href="#home" class="nav-link active">Home</a> -->
+      <a href="#home" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+      <a href="#project" class="nav-link">Project</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    
+    </nav>
+  </header>
+
+  <!-- ---------------home--------------------- -->
+  <main>
+    <section id="home" class="home-section">
+      <div class="home-inner container" >
+        <div class="home-text">
+          <h1 class="name">Surya S</h1>
+
+          <h2 class="role">I'm a
+            <span style="--i:4" data-text="Coder">Coder</span>
+            <span style="--i:3" data-text="Web Developer">Web Developer</span>
+            <span style="--i:2" data-text="Frontend Developer">Frontend Developer</span>
+            <span style="--i:1" data-text="Backend Developer">Backend Developer</span>
+          </h2>
+
+
+          <p class="bio">
+            I am a passionate and detail-oriented Full Stack Developer with a strong interest in creating dynamic,
+            scalable, and user-friendly web applications. With hands-on experience in HTML, CSS and JavaScript, I enjoy
+            transforming ideas into functional, visually appealing digital experiences while ensuring performance and
+            usability. I constantly learn new technologies and build projects like e-commerce platforms and portfolios.
+          </p>
+
+          <div class="actions">
+            <button type="button" class="btn btn-primary p-3 fs-3 fw-bold" data-bs-toggle="modal" data-bs-target="#imageModal">Check Resume
+ 
+</button>
+<!-- Modal for resume -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="imageModalLabel">Image Preview</h5>
+        <!-- This is the X button -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="pic/myResume.png" alt="Sample Image" class="img-fluid" style="height: 600px;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <!-- <a href="resume.html" class="btn-resume text-decoration-none">Check Resume</a> -->
+
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/be-surya" ><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="suryavish2003@gmail.com" ><i class="fa-regular fa-envelope"></i></a>
+              <a href="https://github.com/Surya2003-dot/SURYA.S" ><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/_s_u_r_y_a__15/" ><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-image">
+          <div class="img-box">
+            
+            <img src="pic/SURYA-Photo0.png" alt="Surya photo" >
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- -------------------------Skills---------------------- -->
+ 
+   <section class="skills" id="skills">
+  <h2>Skills</h2>
+  <p>Here are some of my skills on which I have learnt.</p>
+
+  <div class="skills-container">
+    <!-- Webdeveopment Card -->
+    <div class="skill-card animated-border">
+      <h3>Webdeveloper</h3>
+      <div class="skill-items">
+        <span><img src="pic/html.png" alt="" style="width: 40px;height: 40px;"> &nbsp;HTML</span>
+        <span><img src="pic/css.png" alt="" style="width: 40px;height: 40px;"> &nbsp;CSS</span>
+        <span><img src="pic/javascript.png" alt="" style="width: 40px;height: 40px;"> &nbsp;JavaScript</span>
+        <span><img src="pic/Bootstrap.png" alt="" style="width: 40px;height: 40px;"> &nbsp;Bootstrap</span>
+        <span><img src="pic/sql.png" alt="" style="width: 40px;height: 40px;"> &nbsp;Sql</span>
+        <span><img src="pic/java.png" alt="" style="width: 40px;height: 40px;"> &nbsp;Java</span>
+      </div>
+    </div>
+    <!-- Others Card -->
+    <div class="skill-card animated-border">
+      <h3>Others</h3>
+      <div class="skill-items">
+        <span><img src="pic/gitt.png" alt="" style="width: 40px;height: 40px;"> &nbsp;Git</span>
+        <span><img src="pic/github.png" alt="" style="width: 40px;height: 40px;">&nbsp;GitHub</span>
+                <span><img src="pic/vscode.png" alt="" style="width: 40px;height: 40px;">&nbsp;VS Code</span>
+        <span><img src="pic/canva.webp" alt="" style="width: 40px;height: 40px;">&nbsp;Canva</span>
+        <span><img src="pic/picsart.webp" alt="" style="width: 40px;height: 40px;">&nbsp;Pics Art</span>
+        <span><img src="pic/microsoft.png" alt="" style="width: 40px;height: 40px;">&nbsp;Microsoft Power BI</span>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Education -->
+  <section id="education" class="Education">
+    <h2>Education</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card animated-border ">
+            <div class="card-body">
+              <div class="fs-2">B.E Electronics and Communication <i class="fa-solid fa-user-graduate"></i></div>
+              <div class="fs-4">Electronics & Communication graduate passionate about innovation, problem-solving, and building connected solutions.<br><br>Dhanalakshmi Srinivasan Engineering College(A), Perambalur. <br>Grade:7.3CGPA</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card animated-border">
+            <div class="card-body">
+              <div class="fs-2">HSC <i class="fa-solid fa-user-graduate"></i></div>
+              <div class="fs-4">Completed Higher Secondary in Biology Group with strong academics, discipline, and interest  communication.<br><br>Sakthi Matric Hr Sec School, Virudhachalam.  <br>Grade:80%</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card animated-border">
+            <div class="card-body">
+              <div class="fs-2">SSLC <i class="fa-solid fa-user-graduate"></i></div>
+              <div class="fs-4">Built strong academic base focusing on discipline, logical thinking, comunication and learning skills.<br><br>Fatima Matric Hr Sec School, Virudhachalam.<br>Grade:70%</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card animated-border">
+            <div class="card-body">
+              <div class="fs-2">Web Developer Course <i class="fa-solid fa-code"></i></div>
+              <div class="fs-4">Creative web developer specializing in responsive, user-friendly websites. Passionate about modern technologies, clean code, and seamless user experience. <br> <br>SLA Institution, Chennai. <br>Grade:90%  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- -----------project----------- -->
+<section id="project" class="project">
+  <h2>My Projects</h2>
+
+  <div class="project-container">
+
+    <!-- Project 1: Easy Rent -->
+    <div class="project-card1">
+      <img src="pic/easyrent.png" alt="Easy Rent  Image">
+      <div>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Bootstrap</span>
+        <span>JavaScript</span>
+      </div>
+      <h3 class="card-title">Easy Rent - Car and Bike Rental Services</h3>
+      
+      <p class="card-text">
+        Developed a responsive Car and Bike Rental Service website using HTML, CSS, Bootstrap, and JavaScript.
+        Easy Rent enables hassle-free vehicle rental with user-friendly interface, real-time booking, and secure payments.
+      </p>
+      <div class="actions d-flex">
+        <a href="https://github.com/Surya2003-dot/EasyRent" target="_blank" class="btn">View  Code</a>
+        <a href="https://surya2003-dot.github.io/EasyRent/"  class="btn">View Live Website</a>
+        
+      </div>
+    </div>
+
+    <!-- Project 2: Fab Men's Wear -->
+    <div class="project-card2">
+      <img src="pic/fab.png" alt="Fab Image">
+       <div>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Bootstrap</span>
+        <span>JavaScript</span>
+      </div>
+      <h3 class="card-title">Fab Men's Wear - Online Shopping Platform</h3>
+     
+      <p class="card-text">
+        Built an E-commerce platform showcasing my skills in web development. Fab offers a fully responsive shopping experience,
+        where users can browse, select, and purchase men's fashion items with ease and good user-experience.
+      </p>
+      <div class="actions">
+        <a href="https://github.com/Surya2003-dot/FAB_MensWear.git" target="_blank" class="btn">View  Code</a>
+        <a href="https://surya2003-dot.github.io/FAB_MensWear/" target="_blank" class="btn">View Live Website</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- -----------------Contact Section----------------- -->
+<section id="contact" class="contact py-5">
+    <h2>Contact Me</h2>
+  <div class="container ">
+  
+    <div class="row justify-content-center ">
+      <div class="col-lg-6 col-md-8 animated-border">
+        <form class="p-4 rounded shadow " style="background:#0b0b0b; border:1px solid rgba(255,255,255,0.1);">
+          
+          <!-- Name -->
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control bg-dark text-light border-secondary" id="name" placeholder="Your Name" required>
+            <label for="name">Name</label>
+          </div>
+
+          <!-- Gmail -->
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control bg-dark text-light border-secondary" id="email" placeholder="Your Gmail" required>
+            <label for="email">Gmail</label>
+          </div>
+
+          <!-- Message -->
+          <div class="form-floating mb-3">
+            <textarea class="form-control bg-dark text-light border-secondary" placeholder="Leave a message here" id="message" style="height: 120px" required></textarea>
+            <label for="message">Message</label>
+          </div>
+
+          <!-- Button -->
+          <button type="submit" class="btn w-100" style="background:#00aaff; color:#000; font-weight:600;font-size: 1.8rem;">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- -----------Footer----------------- --> 
+
+<footer>
+  <div class="container">
+
+    <p>© 2025 Surya S. All rights reserved.</p>
+    <div class="footer-socials">
+       <a href="https://www.linkedin.com/in/be-surya" ><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="suryavish2003@gmail.com" ><i class="fa-regular fa-envelope"></i></a>
+              <a href="https://github.com/Surya2003-dot/SURYA.S" ><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/_s_u_r_y_a__15/" ><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p>Designed & Built by Surya S</p>
+  </div>
+</footer>
+<!-- ---uparrow------ -->
+</div>
+ <span id="arrow"><i class="fa-solid fa-arrow-up"   ></i></span>
+ <script>
+  // Show arrow when scrolled down and scroll to top on click
+const arrow = document.getElementById('arrow');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    arrow.style.display = 'block';
+  } else {
+    arrow.style.display = 'none';
+  }
+});
+
+arrow.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+ </script>
+<!-- ------
+
+
+  <!-- JS: toggle menu + close on link click -->
+  <script>
+    (function () {
+      const menuBtn = document.getElementById('menu-icon');
+      const nav = document.getElementById('site-nav');
+      const navLinks = document.querySelectorAll('.site-nav .nav-link');
+
+      menuBtn.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+        this.setAttribute('aria-expanded', !expanded);
+        nav.classList.toggle('open');
+      });
+
+      // close menu on link click (mobile)
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          if (nav.classList.contains('open')) {
+            nav.classList.remove('open');
+            menuBtn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+
+      // optional: close nav when clicking outside on mobile
+      document.addEventListener('click', (e) => {
+        if (!nav.contains(e.target) && !menuBtn.contains(e.target) && nav.classList.contains('open')) {
+          nav.classList.remove('open');
+          menuBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+    
+  // Highlight nav link when section is in viewport
+  document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".site-nav .nav-link");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            navLinks.forEach((link) => {
+              link.classList.remove("active");
+              if (link.getAttribute("href").substring(1) === entry.target.id) {
+                link.classList.add("active");
+              }
+            });
+          }
+        });
+      },
+      { threshold: 0.6 } // 60% section visible → active
+    );
+
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
+  });
+
+// --------------popup-----------
+ window.addEventListener('DOMContentLoaded', () => {
+    Swal.fire({
+      title: 'Welcome to My World of Creation!',
+      text: 'Hello there! I am exited to share my work with you.Feel free to browse through my projects and learn more about my skills and experience',
+
+      icon:'info',
+      confirmButtonText: 'Got it!',
+      background: '#0b0b0b',
+      color: '#ffffff',
+      allowOutsideClick: false,
+      customClass: {
+        popup: 'responsive-swal-popup'
+      },
+      showClass: {
+        popup: 'animate__animated animate__fadeInDown'
+      },
+      hideClass: {
+        popup: 'animate__animated animate__fadeOutUp'
+      }
+    });
+  });
+
+  </script>
+
+  <!-- -------------form js----------- -->
+   <script>document.querySelector('form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  Swal.fire({
+    icon: 'success',
+    title: 'Message Sent!',
+    text: 'Thank you for contacting me.',
+    background: '#0b0b0b',
+    color: '#ffffff'
+  });
+  this.reset();
+});
+</script>
+
+  <!-- Bootstrap bundle (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
